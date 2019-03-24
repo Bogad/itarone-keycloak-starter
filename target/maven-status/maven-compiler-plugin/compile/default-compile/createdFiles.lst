@@ -1,8 +1,0 @@
-META-INF/spring-configuration-metadata.json
-ma/co/omnidata/framework/oauth2/aspect/HasScopeAspect.class
-ma/co/omnidata/framework/oauth2/KeycloakSecurityConfiguration.class
-ma/co/omnidata/framework/oauth2/KeycloakSecurityConfiguration$CommonSpringKeycloakTutorialsSecuritAdapter.class
-ma/co/omnidata/framework/oauth2/annotation/HasScope.class
-ma/co/omnidata/framework/oauth2/feign/OAuth2FeignAutoConfiguration.class
-ma/co/omnidata/framework/oauth2/feign/OAuth2FeignRequestInterceptor.class
-ma/co/omnidata/framework/oauth2/KeycloakServiceProperties.class

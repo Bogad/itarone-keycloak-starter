@@ -1,3 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  ma.co.omnidata.framework.oauth2.feign.OAuth2FeignAutoConfiguration,\
-  ma.co.omnidata.framework.oauth2.KeycloakSecurityConfiguration
