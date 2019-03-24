@@ -22,7 +22,7 @@
 		<java.version>1.8</java.version>
 		<keycloak.version>4.0.0.Final</keycloak.version>
 		<spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
-		<revision>2.0.0</revision>
+		<revision>2.0.0-SNAPSHOT</revision>
 	</properties>
 	<dependencies>
 		<dependency>
