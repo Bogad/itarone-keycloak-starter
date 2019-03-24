@@ -1,0 +1,6 @@
+/home/amine/github.com/itarone-keycloak-starter/src/main/java/ma/co/omnidata/framework/oauth2/feign/OAuth2FeignRequestInterceptor.java
+/home/amine/github.com/itarone-keycloak-starter/src/main/java/ma/co/omnidata/framework/oauth2/feign/OAuth2FeignAutoConfiguration.java
+/home/amine/github.com/itarone-keycloak-starter/src/main/java/ma/co/omnidata/framework/oauth2/annotation/HasScope.java
+/home/amine/github.com/itarone-keycloak-starter/src/main/java/ma/co/omnidata/framework/oauth2/KeycloakServiceProperties.java
+/home/amine/github.com/itarone-keycloak-starter/src/main/java/ma/co/omnidata/framework/oauth2/aspect/HasScopeAspect.java
+/home/amine/github.com/itarone-keycloak-starter/src/main/java/ma/co/omnidata/framework/oauth2/KeycloakSecurityConfiguration.java
