@@ -201,10 +201,9 @@
 	</distributionManagement>
 
 	<scm>
-		<connection>scm:git:git://github.com:Bogad/itarone-keycloak-starter.git</connection>
-		<developerConnection>scm:git:git@github.com:Bogad/itarone-keycloak-starter.git</developerConnection>
-		<url>https://github.com/Bogad/itarone-keycloak-starter</url>
-		<tag>HEAD</tag>
+		<connection>scm:git:git://github.com/Bogad/itarone-keycloak-starter.git</connection>
+		<developerConnection>scm:git:ssh://github.com:Bogad/itarone-keycloak-starter.git</developerConnection>
+        <url>http://github.com/Bogad/itarone-keycloak-starter</url>
 	</scm>
 
 </project>
