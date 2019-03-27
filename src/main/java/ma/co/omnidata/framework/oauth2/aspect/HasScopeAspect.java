@@ -1,7 +1,5 @@
 package ma.co.omnidata.framework.oauth2.aspect;
 
-import java.util.Arrays;
-import java.util.HashSet;
 import java.util.StringTokenizer;
 
 import org.aspectj.lang.JoinPoint;
@@ -15,7 +13,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.oauth2.common.exceptions.InsufficientScopeException;
 import org.springframework.stereotype.Component;
 
 import ma.co.omnidata.framework.oauth2.annotation.HasScope;
@@ -48,7 +45,7 @@ public class HasScopeAspect {
 			KeycloakPrincipal<KeycloakSecurityContext> kp = (KeycloakPrincipal<KeycloakSecurityContext>) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
 			AccessToken token = kp.getKeycloakSecurityContext().getToken();
 			if (!hasScope.value().isEmpty() && !clientHasScope(token, hasScope.value())) {
-				Throwable failure = new InsufficientScopeException("Insufficient scope for this resource", new HashSet<>(Arrays.asList(hasScope.value())));
+				Throwable failure = new AccessDeniedException("Insufficient scope for this resource");
 				throw new AccessDeniedException(failure.getMessage(), failure);
 			}
 		} else {
