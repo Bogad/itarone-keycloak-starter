@@ -4,7 +4,7 @@
 
 	<groupId>com.github.bogad</groupId>
 	<artifactId>itarone-keycloak-starter</artifactId>
-	<version>2.1.0</version>
+	<version>2.1.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<parent>
@@ -185,7 +185,7 @@
 		<connection>scm:git:git://github.com/Bogad/itarone-keycloak-starter.git</connection>
 		<developerConnection>scm:git:ssh://github.com:Bogad/itarone-keycloak-starter.git</developerConnection>
 		<url>http://github.com/Bogad/itarone-keycloak-starter</url>
-	  <tag>itarone-keycloak-starter-2.1.0</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 </project>
